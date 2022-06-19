@@ -2,7 +2,6 @@
 * {
     font-family: 'Noto Serif', serif
 }
-
 span {
     margin-bottom: 15px;
     margin-top: 0;
@@ -76,4 +75,21 @@ span {
     display: grid;  
     gap: 32px;
     grid-template-columns: repeat(4, 1fr);
+}
+
+.call {
+    display: grid;
+    line-height: 0.7;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+footer {
+    grid-column-start: 1;
+    grid-column-end: 5;
 }
